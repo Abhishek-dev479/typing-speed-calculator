@@ -112,6 +112,7 @@ function handleSpace(){
         for(k=noOfCharacters+1; k<temp; k++){
             letters[k].style.textDecoration = 'underline';
             letters[k].style.textDecorationColor = 'red';
+            cursor++;
         }
     }
     noOfCharacters = temp;
